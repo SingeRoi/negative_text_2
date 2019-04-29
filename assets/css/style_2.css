@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css?family=Passion+One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');  
+
+/*---------------------------------negative text name title------------------------------------*/
+
+header {
+  padding: 0;
+  margin: 0;
+}
+.logo { 
+    color: blue;
+    background: url("../images/monkey-puzzle-tree.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    max-width: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-colour-name /*.bg-colour-title*/ {
+    background: url(../images/dona-araucaria.jpg) repeat;
+ /* background: url(http://www.color-hex.com/palettes/26323.png) repeat;
+  width: 100vw;
+  height: 100vh;*/
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-colour-title {
+    background: url(../images/dona-araucaria.jpg) repeat;
+    /* background: url(http://www.color-hex.com/palettes/26323.png) repeat;
+    width: 100vw;
+    height: 100vh;*/
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    /*width: 100vw;*/
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+ 
+.bg-colour-name::before {
+  content: 'Robert Jackson';
+  left: 0;
+  top: 0;
+  position: relative;
+  background-size: cover;
+  min-height: 180px;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: 'Passion One', cursive;
+  z-index: 1;
+  mix-blend-mode: screen;
+  font-weight: 400;
+  font-size: 3.5rem;
+  letter-spacing: 1rem;
+  width: 100%;
+  
+}
+.bg-colour-title::before {
+  content: 'Full Stack Developer';
+  left: 0;
+  top: 0;
+  position: relative;
+  background-size: cover;
+  min-height: 180px;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: 'Passion One', cursive;
+  z-index: 1;
+  mix-blend-mode: screen;
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: .3rem;
+  width: 100%;
+}
+
+.heading {
+    margin-left: 50px;
+}
+/*--------------------------------margin adjust for better mobile display---------------*/
+.name-title-col {
+    margin-left: 5px;
+}
+
+ 
+ 
+ 
+ 
+ /*----------------------------new approach doesn't work-------------------------------------*/
+ 
+
+    /*  .banner-sale-1 .title-box .title-overlay
+     
+     .test-container::before {
+      font-weight: 900;
+      overflow: hidden;
+      margin: 0;
+      padding-right: 10%;
+      padding-left: 10%;
+      text-transform: uppercase;
+      color: #080404;
+      background-color: rgba(255, 255, 255, .85);
+
+      /* that css is the main think (mix-blend-mode: lighten;)*/
+    /* mix-blend-mode: lighten;*/
+      }*/
